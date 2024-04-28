@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzify</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+            <h1>Quizzify</h1>
+            <a  class="btn" href="game.html">Play</a>
+            <a  class="btn" href="highscores.html">High Scores</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({
+    reset: true,  // Resets any prior animations on elements
+    distance: '80px', // Distance from viewport edge to start animation
+    duration: 2000,  // Animation duration in milliseconds
+    delay: 200       // Delay before animation starts in milliseconds
+  });
+  
+  ScrollReveal().reveal('.container', { origin: 'top' });
+    </script>
+
+</body>
+
+</html>
